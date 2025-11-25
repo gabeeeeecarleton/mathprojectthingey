@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Science+Gothic:wght@100..900&display=swap');
+
+body {
+
+    
+    background-color: var(--maincolor);
+   
+
+    background-image: url('../images/bluebg.jpg');
+    background-size: fill;
+    /* background-repeat: no-repeat; */
+
+    --maincolor: rgb(210, 235, 255);
+
+    font-family: "Aldrich", Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+p{
+    margin-left:20px;
+    font-size: 20px;
+}
+/* 
+.box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    gap: 0px;
+} */
+
+h1{
+font-size: 50px;
+margin-bottom:20px;
+}
+
+h3{
+font-size: 25px;
+}
+
+pre{
+font-size: 20px;
+}
+
+table{
+    margin: auto;
+margin-bottom:10px;
+margin-top:20px;
+}
+
+button{
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+input{
+    margin: auto;
+    max-width: 60px;
+}
+
+canvas{
+        background-color: white;
+        margin:auto;
+}
